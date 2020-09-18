@@ -3,6 +3,7 @@ package requests
 class GetPlacesRequest (var latitude: Float, var longitude: Float, var filters: List<String>) {
 
 
+
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
